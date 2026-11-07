@@ -1,0 +1,28 @@
+# NAME: China AI list
+# UPDATED: 2026-11-07 
+domain_set:
+  - bailian.console.aliyun.com
+  - dashscope.aliyuncs.com
+  - qodercn-jb.oss-cn-hangzhou.aliyuncs.com
+  - api.hunyuan.cloud.tencent.com
+  - hunyuan.tencentcloudapi.com
+domain_suffix_set:
+  - deepseek.com
+  - deepseeksvc.com
+  - doubao-dev.com
+  - doubao.cn
+  - doubao.com
+  - doubaoapps.com
+  - doubaocdn.com
+  - ydycdn.com
+  - lf3-static.bytednsdoc.com
+  - lf3-short.ibytedapm.com
+  - qianwen.aliyun.com
+  - qianwen.com
+  - tongyi.aliyun.com
+  - tongyi.com
+  - yuanbao.tencent.com
+  - yuanqi.tencent.com
+  - hunyuan.tencent.com
+  - igtm-yuanbao.cn
+  - igtm-yuanbao.com
