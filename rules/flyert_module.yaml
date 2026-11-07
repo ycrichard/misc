@@ -1,0 +1,55 @@
+name: 飞客去广告
+description: 移除开屏广告、首页广告、板块广告、帖内广告和我的页面广告。
+open_url: https://apps.apple.com/app/id547560608
+author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+homepage: https://hub.kelee.one
+icon: https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/FlyerTea.png
+dns: {}
+rewrites:
+- match: (?i)^https://www\.flyert\.com\.cn/api/mobile/index\.php\?module=advis
+  actions:
+  - respond:
+      status: 404
+- match: (?i)^https://www\.flyert\.com\.cn/api/mobile/index\.php\?module=vip_coupon
+  actions:
+  - respond:
+      status: 200
+      headers:
+        Content-Type: application/json
+      body: '{}'
+- match: (?i)^https://ptf\.flyertrip\.com/static/img/common/ic_plate_mine_button\.png
+  actions:
+  - respond:
+      status: 200
+      headers:
+        Content-Type: image/gif
+      body:
+        base64: R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==
+- match: (?i)^https://www\.flyert\.com\.cn/api/mobile/index\.php\?module=getdata
+  actions:
+  - respond:
+      status: 200
+      headers:
+        Content-Type: application/json
+      body: '{}'
+- name: 移除板块广告
+  match: (?i)^https://www\.flyert\.com\.cn/api/mobile/index\.php\?version=5
+  actions:
+  - response_script:
+      name: 移除板块广告
+      url: https://kelee.one/Resource/JavaScript/FlyerTea/FlyerTea_remove_ads.js
+      timeout: 20
+      body_required: true
+- name: 移除签到弹窗广告
+  match: (?i)^https://www\.flyert\.com\.cn/api/mobile/index\.php\?module=plugin&id=k_misign:sign
+  actions:
+  - response_script:
+      name: 移除签到弹窗广告
+      url: https://kelee.one/Resource/JavaScript/FlyerTea/FlyerTea_remove_ads.js
+      timeout: 20
+      body_required: true
+mitm:
+  hostnames:
+    includes:
+    - www.flyert.com.cn
+    - ptf.flyertrip.com
