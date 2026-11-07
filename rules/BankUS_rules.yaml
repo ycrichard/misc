@@ -1,0 +1,9 @@
+# NAME: Banks
+# UPDATED: 2026-11-07
+domain_set:
+  - cai-bofa-prod.nods.nuance.com
+domain_suffix_set:
+  - eastwetbank.com
+  - velobank.com
+  - bac-assets.com
+  - bankofamerica.com
