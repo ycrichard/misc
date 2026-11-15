@@ -11,8 +11,13 @@ domain_set:
   - line.xmsl.org
   - s2.array2026.cc
   - s3.array2026.com
+  - cf.wedg.top
+  - a.wedg.top
+  - tt.wedg.top
+  - cdn.wedg.top
 domain_suffix_set:
   - wenjian.de
   - array2026.cc
   - array2026.com
   - sadchicktv.com
+  - wedg.top
