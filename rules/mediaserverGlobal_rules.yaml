@@ -1,0 +1,27 @@
+# NAME: media server list that need proxy
+# UPDATED: 2026-11-15
+domain_set:
+  - std.cn2gias.uk
+  - lite.cn2gias.uk
+  - nano.cr18.eu.org
+  - wp.lyezi.cc
+  - yp.lyezi.cc
+  - us.wedg.top
+  - media.emby.pro
+domain_suffix_set:
+  - cn2gias.uk
+  - jms.org
+  - cr18.eu.org
+  - hohai.eu.org
+  - lyezi.cc
+  - yuntv.de
+  - sfcj.org
+  - emby.pro
+  - miraiemby.com
+  - emos.best
+  - ichinosekotomi.com
+  - biliblili.uk
+  - yuanshen.help
+  - nijigem.by
+  - okemby.org
+  - bangumi.ca
