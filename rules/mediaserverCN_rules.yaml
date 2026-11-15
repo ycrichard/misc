@@ -1,0 +1,18 @@
+# NAME: media server list can be connect in China
+# UPDATED: 2026-11-15
+domain_set:
+  - book.hsu.life
+  - book.wenjian.de
+  - komga.wenjian.de
+  - music.wenjian.de
+  - yin.wenjian.de
+  - yyue.lyezi.cc
+  - ys.lyezi.cc
+  - line.xmsl.org
+  - s2.array2026.cc
+  - s3.array2026.com
+domain_suffix_set:
+  - wenjian.de
+  - array2026.cc
+  - array2026.com
+  - sadchicktv.com
