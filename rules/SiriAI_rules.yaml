@@ -1,0 +1,30 @@
+# NAME: Apple Intelligence, AI extension
+# US proxy, don't block UDP 443 QUIC
+# UPDATED: 2026-11-16
+domain_set:
+  - openai-api.arkoselabs.com
+  - lens.google.com
+  - gemini.gstatic.com
+  - generativelanguage.googleapis.com
+  - proactivebackend-pa.googleapis.com
+  - robinfrontend-pa.googleapis.com
+  - aistudio.google.com
+  - alkalimakersuite-pa.clients6.google.com
+domain_suffix_set:
+  - openai.com
+  - chatgpt.com
+  - chat.com
+  - sora.com
+  - oaistatic.com
+  - oaiusercontent.com
+  - oaistatsig.com
+  - openai.com.cdn.cloudflare.net
+  - chatgpt.livekit.cloud
+  - host.livekit.cloud
+  - turn.livekit.cloud
+  - gemini.google.com
+  - deepmind.google
+  - anthropic.com
+  - claude.ai
+  - claude.com
+  - claudeusercontent.com
