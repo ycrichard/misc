@@ -1,13 +1,13 @@
 # NAME:  Apple-APNs-Direct
 # Direct
 # UPDATED: 2026-11-16
+no_resolve: true
 domain_set:
   - identity.apple.com
 domain_suffix_set:
   - push.apple.com
 domain_keyword_set:
   - apple.com.edgekey.net
-no_resolve: true
 ip_cidr_set:
   - 17.249.0.0/16
   - 17.252.0.0/16
