@@ -1,0 +1,11 @@
+# NAME: Apple Intelligence, Siri AI (Beta)
+# Direct and skip-proxy always-real-ip
+# UPDATED: 2026-11-16
+domain_set:
+  - guzzoni.apple.com
+  - dejavu.apple.com
+  - sequoia.apple.com
+domain_suffix_set:
+  - guzzoni.apple.com
+  - siri.apple.com
+  - smoot.apple.com
