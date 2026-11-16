@@ -1,0 +1,21 @@
+# NAME: Apple Intelligence, Siri AI (Beta)
+# US proxy, don't block UDP 443 QUIC
+# UPDATED: 2026-11-16
+domain_set:
+  - gspe1-ssl.ls.apple.com
+  - mask-api.icloud.com
+  - mask.icloud.com
+  - mask-h2.icloud.com
+  - ss-cleanup-proxy-prod.us-east-1m.app.apple.com
+  - apple-relay.apple.com
+domain_suffix_set:
+  - issuer.apple.com
+  - ropes.apple.com
+  - app.apple.com
+  - apple-relay.cloudflare.com
+  - apple-relay.fastly-edge.com
+  - apple-relay.akamaized.net
+  - apple-relay.mask.apple-dns.net
+  - cp4.cloudflare.com
+domain_keyword_set::
+  - apple-relay
