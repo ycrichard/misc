@@ -1,0 +1,26 @@
+# NAME: media server list that need proxy
+# UPDATED: 2026-11-22
+DOMAIN,std.cn2gias.uk
+DOMAIN,lite.cn2gias.uk
+DOMAIN,nano.cr18.eu.org
+DOMAIN,wp.lyezi.cc
+DOMAIN,yp.lyezi.cc
+DOMAIN,us.wedg.top
+DOMAIN,media.emby.pro
+DOMAIN-SUFFIX,cn2gias.uk
+DOMAIN-SUFFIX,jms.org
+DOMAIN-SUFFIX,cr18.eu.org
+DOMAIN-SUFFIX,hohai.eu.org
+DOMAIN-SUFFIX,wenjian.de
+DOMAIN-SUFFIX,lyezi.cc
+DOMAIN-SUFFIX,yuntv.de
+DOMAIN-SUFFIX,sfcj.org
+DOMAIN-SUFFIX,emby.pro
+DOMAIN-SUFFIX,miraiemby.com
+DOMAIN-SUFFIX,emos.best
+DOMAIN-SUFFIX,ichinosekotomi.com
+DOMAIN-SUFFIX,biliblili.uk
+DOMAIN-SUFFIX,yuanshen.help
+DOMAIN-SUFFIX,nijigem.by
+DOMAIN-SUFFIX,okemby.org
+DOMAIN-SUFFIX,bangumi.ca
