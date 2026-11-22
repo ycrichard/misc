@@ -5,6 +5,11 @@ DOMAIN,dashscope.aliyuncs.com
 DOMAIN,qodercn-jb.oss-cn-hangzhou.aliyuncs.com
 DOMAIN,api.hunyuan.cloud.tencent.com
 DOMAIN,hunyuan.tencentcloudapi.com
+DOMAIN,ernie.baidu.com
+DOMAIN,yiyan.baidu.com
+DOMAIN,qianfan.baidubce.com
+DOMAIN,api.minimaxi.com
+DOMAIN,ark.cn-beijing.volces.com
 DOMAIN-SUFFIX,deepseek.com
 DOMAIN-SUFFIX,deepseeksvc.com
 DOMAIN-SUFFIX,doubao-dev.com
@@ -24,3 +29,8 @@ DOMAIN-SUFFIX,yuanqi.tencent.com
 DOMAIN-SUFFIX,hunyuan.tencent.com
 DOMAIN-SUFFIX,igtm-yuanbao.cn
 DOMAIN-SUFFIX,igtm-yuanbao.com
+DOMAIN-SUFFIX,kimi.com
+DOMAIN-SUFFIX,moonshot.cn
+DOMAIN-SUFFIX,chatglm.cn
+DOMAIN-SUFFIX,zhipuai.cn
+DOMAIN-SUFFIX,zhipucn.com
